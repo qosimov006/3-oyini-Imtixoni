@@ -1,16 +1,30 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   font-family: sans-serif;
 }
 body .container-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-left: 55px;
   padding-right: 50px;
   padding-top: 6px;
@@ -21,6 +35,8 @@ body .container-fluid .header__contact span {
   font-size: 12px;
   color: #6C7178;
   margin-left: 6px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 body .container-fluid .header__contact span:hover {
@@ -41,6 +57,8 @@ body .header .header__about a {
   margin-right: 25px;
   color: #6C7178;
   line-height: normal;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 body .header .header__about a:hover {
@@ -58,9 +76,15 @@ body .logo {
   cursor: pointer;
 }
 body .header__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 3px;
 }
 body .header__main .catalog {
@@ -77,6 +101,8 @@ body .header__main .catalog {
   cursor: pointer;
   font-weight: 500;
   margin-left: 40px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 body .header__main .catalog:hover {
@@ -105,6 +131,8 @@ body .header__main .search .icon {
   padding-top: 9px;
   padding-left: 25px;
   border-radius: 12px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 body .header__main .search .icon:hover {
@@ -136,6 +164,8 @@ body table .stock a {
 body table a {
   text-decoration: none;
   color: #6C7178;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
   font-size: 14px;
 }
@@ -151,9 +181,15 @@ body .card__categories {
   margin-top: 25px;
 }
 body .card__categories .card__categories__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 body .card__categories .card__categories__text h3 {
   font-size: 26px;
@@ -167,9 +203,15 @@ body .card__categories .card__categories__text h5 {
   color: #0B2B5E;
 }
 body .card__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 20px;
 }
 body .card__block .block {
@@ -179,9 +221,15 @@ body .card__block .block {
   height: 80px;
   border-radius: 18px;
   margin-right: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 10px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 body .card__block .block:hover {
@@ -216,6 +264,8 @@ body .medium .btn a {
   padding-right: 15px;
   border-radius: 20px;
   margin-bottom: 50px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 body .medium .btn a:hover {
@@ -234,10 +284,16 @@ body .medium__card a {
   border-radius: 5px;
 }
 body .medium__card .card__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 body .medium__card .star {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 body .medium__card .star img {
@@ -284,6 +340,8 @@ body .medium__card .card__footer .magazin {
   padding: 14px 30px;
   border-radius: 10px;
   cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 body .medium__card .card__footer .magazin:hover {
@@ -294,6 +352,8 @@ body .medium__card .card__footer .card_cen {
   padding: 14px;
   border-radius: 10px;
   cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 body .medium__card .card__footer .card_cen:hover {
@@ -304,12 +364,16 @@ body .medium__card .card__footer .like {
   padding: 14px;
   border-radius: 10px;
   cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 body .medium__card .card__footer .like:hover {
   background-color: #D92E15;
 }
 body .medium__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: 20px;
 }
@@ -358,6 +422,8 @@ body .medium__best .medium__block button {
   text-align: center;
   margin-top: 10px;
   width: 190px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 body .medium__best .medium__block button:hover {
@@ -368,8 +434,12 @@ body .nootebook {
 }
 body .nootebook .star {
   margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 body .nootebook h5 {
   font-size: 14px;
@@ -415,8 +485,12 @@ body .brends h3 {
   margin-top: 50px;
 }
 body .brends .brends__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 body .brends .brends__card .brends__block {
   border: 1px solid #d8dadd;
@@ -425,6 +499,8 @@ body .brends .brends__card .brends__block {
   padding-left: 50px;
   padding-top: 28px;
   border-radius: 20px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 body .brends .brends__card .brends__block:hover {
@@ -437,6 +513,8 @@ body .brends .brends__card .brends__blocks {
   height: 237px;
   padding: 16px;
   border-radius: 20px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 body .brends .brends__card .brends__blocks:hover {
@@ -463,8 +541,12 @@ body .store {
   height: 330px;
   width: 100%;
   margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-left: 55px;
   padding-right: 40px;
   position: relative;
@@ -498,8 +580,12 @@ body .foters {
   padding-left: 55px;
   padding-top: 65px;
   padding-right: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 body .foters .tel h4 {
   color: white;
@@ -539,6 +625,8 @@ body .foters .information a h4 {
   opacity: 0.5;
   color: #ffffff;
   margin-bottom: 15px;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 body .foters .information a h4:hover {
@@ -551,8 +639,12 @@ body .contact {
   width: 100%;
   height: 74px;
   padding-left: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 23px;
   padding-right: 40px;
 }
@@ -563,4 +655,4 @@ body .contact h3 {
 }
 body .contact img {
   margin-right: 20px;
-}/*# sourceMappingURL=main.css.map */
+}
